@@ -3,8 +3,7 @@
  * (c) 2020 Rodziu <mateusz.rohde@gmail.com>
  * License: MIT
  */
-// eslint-disable-next-line no-unused-vars
-const NamingConventions = (function(TYPE_NUMBER, TYPE_LOWERCASE, TYPE_UPPERCASE, TYPE_SPECIAL) {
+window.NamingConventions = (function(TYPE_NUMBER, TYPE_LOWERCASE, TYPE_UPPERCASE, TYPE_SPECIAL) {
     'use strict';
 
     /**
