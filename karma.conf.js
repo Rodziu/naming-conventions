@@ -15,7 +15,7 @@ module.exports = function(config){
 
 		// list of files / patterns to load in the browser
 		files: [
-			'src/naming-conventions.js',
+			'dist/naming-conventions.js',
 			'tests/*.js'
 		],
 

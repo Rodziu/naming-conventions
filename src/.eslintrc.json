@@ -3,16 +3,18 @@
     "browser": true,
     "es6": true
   },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "extends": [
-    "eslint:recommended"
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "globals": {
-    "NamingConventions": "readonly"
+    "DateExtended": "readonly"
   },
   "parserOptions": {
     "ecmaVersion": 2016
-  },
-  "rules": {
-    "no-console": "warn"
   }
 }
